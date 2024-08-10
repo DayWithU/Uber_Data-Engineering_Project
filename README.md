@@ -27,8 +27,10 @@ Yellow and green taxi trip records include fields capturing pick-up and drop-off
 <!-- Here is the dataset used  - https://github.com/darshilparmar/uber-data-engineering-mage-project/blob/main/data/uber_data.csv -->
 
 ### More Info About Dataset
-1. Original Data Source - https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
-2. Data Dictionary - https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
+1. Original Data Source -
+   https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+3. Data Dictionary       
+   https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
 
 ## Data Model
 ![Data model image](data_model.jpeg)
@@ -37,4 +39,3 @@ Yellow and green taxi trip records include fields capturing pick-up and drop-off
 1. [Extract Python File](mage-files/extract.py)
 2. [Load Python File](mage-files/load.py)
 3. [Transform Python File](mage-files/transform.py)
-
